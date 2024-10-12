@@ -14,7 +14,7 @@
         "@tailwindcss/typography": "^0.5.10",
         "@vitejs/plugin-vue": "^4.0.0",
         "autoprefixer": "^10.4.16",
-        "axios": "^1.1.2",
+        "axios": "^1.7.7",
         "cropperjs": "^1.6.0",
         "eslint": "^8.54.0",
         "eslint-config-prettier": "^9.0.0",
