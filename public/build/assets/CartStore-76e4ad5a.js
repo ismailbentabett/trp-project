@@ -1,0 +1,1 @@
+import{W as a,k as r}from"./app-be752e86.js";const s=a("cart",{state:()=>({cartCountData:0}),actions:{async CartCount(){const t=await r.get("/cart/count");this.cartCountData=t.data}},getters:{getCartCount(){return this.cartCountData}}});export{s as u};
