@@ -30,7 +30,7 @@
     },
     "dependencies": {
         "@algolia/autocomplete-js": "^1.11.0",
-        "@dicebear/collection": "^7.0.1",
+        "@dicebear/collection": "^9.4.3",
         "@dicebear/core": "^7.0.1",
         "@headlessui/vue": "^1.7.16",
         "@heroicons/vue": "^2.0.18",
