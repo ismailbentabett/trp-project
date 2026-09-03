@@ -6,13 +6,10 @@ node_modules/
 public/hot
 public/storage
 storage/*.key
-.env
 .env.backup
-.env.production
 
 # Ignore IDE or editor config files
 /.idea/
-/.vscode/
 /fleet/
 
 # Laravel Homestead
@@ -28,8 +25,8 @@ yarn-error.log
 .phpunit.result.cache
 
 # Prevent accidental commit of the .env files
-.env
 .env.example
 branch_structure.json
 temp_auto_push.bat
 temp_interactive_push.bat
+config.bat
