@@ -49,7 +49,7 @@
         "filepond-plugin-image-preview": "^4.6.11",
         "filepond-plugin-media-preview": "^1.0.11",
         "flowbite": "^1.8.1",
-        "flowbite-vue": "^0.0.17",
+        "flowbite-vue": "^0.4.0",
         "iframe-resizer": "^4.3.7",
         "install": "^0.13.0",
         "instantsearch.css": "^8.0.0",
