@@ -1,12 +1,13 @@
 #!/bin/sh
 
 # Make Folders Writable
-# After the deployment finished, give the full 0777 permissions
-# to some folders that should be writable, such as the storage/
-# or bootstrap/cache/, for example.
+# After the deployment finished, make the folders that Laravel needs
+# to write to (storage/ and bootstrap/cache/) group-writable.
+# 775 lets the owner and the web server group write, without
+# giving write access to every user on the machine.
 
-sudo chmod -R 777 storage/
-sudo chmod -R 777 bootstrap/cache/
+sudo chmod -R 775 storage/
+sudo chmod -R 775 bootstrap/cache/
 
 # Storage Symlink Creation
 
