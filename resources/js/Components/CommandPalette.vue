@@ -377,7 +377,7 @@ const products_index = ref(null)
 const brands_index = ref(null)
 const accessories_index = ref(null)
 
-;(searchClient.value = algoliasearch(import.meta.env.VITE_ALGOLIA_APP_ID, import.meta.env.VITE_ALGOLIA_SECRET)),
+;(searchClient.value = algoliasearch(import.meta.env.VITE_ALGOLIA_APP_ID, import.meta.env.VITE_ALGOLIA_SEARCH_KEY)),
     (categories_index.value = searchClient.value.initIndex('categories_index'))
 products_index.value = searchClient.value.initIndex('products_index')
 brands_index.value = searchClient.value.initIndex('brands_index')
