@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="400" viewBox="0 0 1280 400" role="img" aria-labelledby="title desc">
+  <title id="title">TRP Modular CMS</title>
+  <desc id="desc">Modular Laravel and Filament CMS for e-commerce, social publishing and AI-assisted content.</desc>
+  <defs>
+    <clipPath id="frame">
+      <rect width="1280" height="400" rx="24"/>
+    </clipPath>
+    <linearGradient id="wash" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B0F19" stop-opacity="0"/>
+      <stop offset="1" stop-color="#EF4444" stop-opacity="0.15"/>
+    </linearGradient>
+    <linearGradient id="tile" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#EF4444"/>
+    </linearGradient>
+    <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.5" fill="#FFFFFF"/>
+    </pattern>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1280" height="400" fill="#0B0F19"/>
+    <rect width="1280" height="400" fill="url(#wash)"/>
+    <rect width="1280" height="400" fill="url(#dots)" opacity="0.06"/>
+    <rect x="0" y="396" width="1280" height="4" fill="url(#accent)"/>
+  </g>
+
+  <!-- Logo mark -->
+  <g transform="translate(80 104) scale(0.75)">
+    <rect width="256" height="256" rx="56" fill="url(#tile)"/>
+    <g fill="#FFFFFF">
+      <rect x="60" y="60" width="136" height="36" rx="10"/>
+      <rect x="60" y="108" width="52" height="88" rx="10"/>
+      <rect x="124" y="108" width="72" height="38" rx="10"/>
+      <rect x="124" y="158" width="72" height="38" rx="10" fill-opacity="0.72"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="320" y="186" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#FFFFFF" letter-spacing="-1">TRP Modular CMS</text>
+  <text x="322" y="232" font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="24" font-weight="500" fill="#A1A8B8">Laravel + Filament CMS for e-commerce, social publishing and AI content</text>
+
+  <!-- Tech chips -->
+  <g font-family="Inter, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#E5E7EB" text-anchor="middle">
+    <rect x="320" y="268" width="122" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.03" stroke="#F59E0B" stroke-width="1"/>
+    <text x="381" y="291">Laravel 10</text>
+    <rect x="454" y="268" width="122" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.03" stroke="#F59E0B" stroke-width="1"/>
+    <text x="515" y="291">Filament 3</text>
+    <rect x="588" y="268" width="77" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.03" stroke="#F59E0B" stroke-width="1"/>
+    <text x="626.5" y="291">Vue 3</text>
+    <rect x="677" y="268" width="122" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.03" stroke="#EF4444" stroke-width="1"/>
+    <text x="738" y="291">Inertia.js</text>
+    <rect x="811" y="268" width="140" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.03" stroke="#EF4444" stroke-width="1"/>
+    <text x="881" y="291">Tailwind CSS</text>
+    <rect x="963" y="268" width="77" height="36" rx="18" fill="#FFFFFF" fill-opacity="0.03" stroke="#EF4444" stroke-width="1"/>
+    <text x="1001.5" y="291">MySQL</text>
+  </g>
+</svg>

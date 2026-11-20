@@ -1,0 +1,73 @@
+name: Bug report
+description: Report something that is not working as expected.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. Please search existing issues first to avoid duplicates.
+        Do not report security vulnerabilities here. Follow [SECURITY.md](https://github.com/ismailbentabett/trp-project/blob/main/SECURITY.md) instead.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      description: Which part of the application is affected?
+      options:
+        - Admin panel (Filament)
+        - Storefront (Vue / Inertia)
+        - Cart, checkout or orders
+        - Special orders
+        - Social publishing (Facebook, Instagram, LinkedIn)
+        - AI content generator
+        - Support tickets
+        - Blog, newsletter or contact forms
+        - Authentication or roles
+        - Docker / Sail / deployment
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear and concise description of the bug.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Go to '...'
+        2. Click on '...'
+        3. See error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or screenshots
+      description: Paste output from `storage/logs/laravel.log` or the browser console. Remove any secrets first.
+      render: shell
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: PHP version, Node version, OS, and whether you run Sail or a native setup.
+      placeholder: "PHP 8.2, Node 18, Sail on Windows 11 (WSL2)"
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: I removed any credentials or personal data from this report.
+          required: true

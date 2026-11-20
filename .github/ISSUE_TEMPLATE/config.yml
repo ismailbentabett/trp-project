@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: https://github.com/ismailbentabett/trp-project/security/advisories/new
+    about: Report security issues privately through GitHub. Please do not open a public issue.
+  - name: Maintainer profile
+    url: https://github.com/ismailbentabett
+    about: Questions about the project or professional enquiries.
