@@ -1,0 +1,49 @@
+name: Feature request
+description: Suggest an idea or improvement for the CMS.
+title: "[Feature]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping shape the project. Please check the roadmap in the README and existing issues before opening a new request.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: What problem would this feature solve? Who is affected?
+    validations:
+      required: true
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed solution
+      description: Describe the behaviour you would like to see.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Other approaches or workarounds you have tried.
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Admin panel (Filament)
+        - Storefront (Vue / Inertia)
+        - E-commerce
+        - Social publishing
+        - AI content generator
+        - Support tickets
+        - Developer experience / tooling
+        - Other
+    validations:
+      required: true
+  - type: checkboxes
+    id: contribution
+    attributes:
+      label: Contribution
+      options:
+        - label: I am willing to open a pull request for this feature.
