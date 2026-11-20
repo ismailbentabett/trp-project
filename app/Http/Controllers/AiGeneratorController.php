@@ -20,7 +20,7 @@ class AiGeneratorController extends Controller
     public function generateImage(Request $request)
     {
         $client = new Client([
-            'verify' => false,
+            'verify' => true,
         ]);
         $headers = [
             'Content-Type' => 'application/json',

@@ -247,7 +247,7 @@ All configuration is read from `.env`. The template `.env.example` lists every k
 | `REDIS_*`, `MEMCACHED_HOST` | Optional cache backends | |
 | `PUSHER_*`, `VITE_PUSHER_*` | Optional real-time broadcasting | |
 | `SCOUT_DRIVER`, `SCOUT_QUEUE`, `ALGOLIA_APP_ID`, `ALGOLIA_SECRET` | Server-side search indexing | `algolia`, `true` |
-| `VITE_ALGOLIA_APP_ID`, `VITE_ALGOLIA_SECRET` | Front-end instant search. **Bundled into public JS: use a search-only key** | |
+| `VITE_ALGOLIA_APP_ID`, `VITE_ALGOLIA_SEARCH_KEY` | Front-end instant search. **Bundled into public JS: use a search-only key** | |
 | `OPENAI_API_KEY`, `OPENAI_ORGANIZATION` | AI content generator | |
 | `FACEBOOK_APP_ID`, `FACEBOOK_APP_SECRET`, `FACEBOOK_REDIRECT_URI` | Facebook page and Instagram publishing | `http://localhost:8000/auth/facebook/callback` |
 | `LINKEDIN_CLIENT_ID`, `LINKEDIN_CLIENT_SECRET`, `LINKEDIN_REDIRECT_URI` | LinkedIn sign-in and sharing | `http://localhost:8000/linkedin/callback` |
